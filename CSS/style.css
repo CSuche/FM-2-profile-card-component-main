@@ -14,8 +14,8 @@ body{
     height: 100%;
     width: 100%;
     background: 
-    url(/profile-card-component-main/images/bg-pattern-top.svg) no-repeat,
-    url(/profile-card-component-main/images/bg-pattern-bottom.svg) no-repeat ;
+    url(/csuche.github.io/images/bg-pattern-top.svg) no-repeat,
+    url(/csuche.github.io/images/bg-pattern-bottom.svg) no-repeat ;
     /* background-size: auto, auto; */
     background-color: hsl(185, 75%, 39%);   
     
