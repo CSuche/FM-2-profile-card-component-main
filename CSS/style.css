@@ -45,6 +45,7 @@ body{
     border-radius: 10px;
     margin: 10em auto;
     position: relative;
+    box-shadow: 1px 1px 100px 1px hsl(227, 10%, 46%);
 }
 
 .top{
