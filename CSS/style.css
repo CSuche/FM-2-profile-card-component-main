@@ -19,7 +19,7 @@ body{
     /* background-size: auto, auto; */
     background-color: hsl(185, 75%, 39%);   
     
-    background-position: calc(100% - 50vw) calc(100% - 50vh), calc(0% + 50vw) calc(0% + 50vh); height: 100vh;
+    background-position: calc(100% - 40vw) calc(100% - 50vh), calc(0% + 35vw) calc(0% + 40vh); height: 100vh;
 
     /* 
     initial thought:
@@ -40,22 +40,24 @@ body{
 
 .profil{
     background-color: white;
-    height: 380px;
-    width: 330px;
-    border-radius: 10px;
+    height: 375px;
+    width: 326px;
+    border-radius: 15px;
     margin: 10em auto;
-    position: relative;
     box-shadow: 1px 1px 100px 1px hsl(227, 10%, 46%);
 }
 
 .top{
+    position: relative;
     height: 66%;
     line-height: 1.5;
 } 
 
 .backgroundPicture{
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    height: 141px;
+    border-radius: 15px 15px 0 0;
+    /* how to stretch the image? maybe object-fit: ; */
 }
 
 .picture{
@@ -63,47 +65,88 @@ body{
     border-radius: 50%;
     /* top: 80px;
     left: 115px; */
-    top: 21%;
-    left: 35%;
+    top: 35.5%;
+    left: 34%;
     border: 5px solid white;
+    /* between border and image, can see blue line */
 }
 
 .top h1 {
-    /* margin-top: 20%; */
-    margin-top: 60px;
+    margin-top: 64px;
+    margin-left: 2px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 18px;
+    letter-spacing: 0px;
 }
 .top p{
     text-align: center;
     font-size: 0.9rem;
+    line-height: 2;
     color: hsl(0, 0%, 59%);
 }
 #age{
-    font-weight: 400;  
+    font-weight: 400;
+    margin-left: 5px;  
     color: hsl(0, 0%, 59%);
 }
 .bottom{
     /* margin-top: 3em; */
     /* margin-top: 15%; */
-    margin-top: 50px;
+    margin-top: 38px;
     display: flex;
     flex-direction: row;
-    height: 100%;
+    height: 88px;
     justify-content: center;
-    /* align-items pour le vertical, contraire de justify-content */
     border-top: 1px solid hsl(0, 0%, 59%);
 }
-.social:first-line{
-    font-weight: 700;
-}
-.social p:nth-child(2){
-    font-size: 0.7em;
-    color: hsl(0, 0%, 59%);
-    font-weight: 400;
-}
+
 .social{
-    padding: 1em;
+    /* padding: 0 1.3em; */
+    /* margin: 2.1em 0.4em;
     text-align: center;
-    line-height: 1.5;
+    line-height: 0.25; */
+    /* padding: 1.1rem; */
+    display: flex;
+    flex-direction: column;
+    margin: 13px 3px 0px;
+    /* width: calc(100/3); */
+    justify-content: center;
+    align-items: center;
+    /* line-height: 0.25; */
+}
+
+.social:first-child{
+    margin-left: -8px;
+    /* margin-right: 20px; */
+}
+
+.social:nth-child(2){
+    padding-left: 35px;
+    /* margin-left: 10px; */
+    /* margin-right: 5px; */
+}
+
+.social:nth-child(3){
+    padding-left: 42px;
+    /* margin-left: 50px; */
+    /* margin-right: 5px; */
+}
+
+.social p:first-child{
+    /* width: 50px; */
+    /* letter-spacing: -1px; */
+    font-size: 1.1em;
+    font-weight: 700;
+    /* margin: 0 2px; */
+    text-align: center;
+}
+
+.social p:nth-child(2){
+    font-size: 0.6em;
+    color: hsl(0, 0%, 59%);
+    font-weight: 700;
+    /* margin-top: 10px; */
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 1.5px;
 }
