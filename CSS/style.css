@@ -19,7 +19,7 @@ body{
     /* background-size: auto, auto; */
     background-color: hsl(185, 75%, 39%);   
     
-    background-position: calc(100% - 40vw) calc(100% - 50vh), calc(0% + 35vw) calc(0% + 40vh); height: 100vh;
+    background-position: calc(100% - 44vw) calc(100% - 60vh), calc(0% + 46vw) calc(0% + 20vh); height: 100vh;
 
     /* 
     initial thought:
